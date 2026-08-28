@@ -1,0 +1,54 @@
+.skill-container {
+  background-color: #121417;
+  padding: 2rem;
+  border-radius: 25px;
+}
+
+.skill-item {
+  margin-bottom: 1.5rem;
+}
+
+.skill-name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.skill-name span:last-child {
+  color: #ef4444;
+}
+
+.progress {
+  height: 12px;
+  background-color: #2a2d32;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #ef4444;
+  border-radius: 10px;
+}
+
+.progress-bar.devops {
+  width: 67%;
+}
+
+.progress-bar.cloud {
+  width: 67%;
+}
+
+.progress-bar.linux {
+  width: 67%;
+}
+
+.progress-bar.sql {
+  width: 67%;
+}
+
+.progress-bar.java {
+  width: 67%;
+}

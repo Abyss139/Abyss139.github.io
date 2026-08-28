@@ -1,7 +1,14 @@
 @import "theme.css";
+@import "sections/navbar.css";
 @import "sections/header.css";
-@import "sections/skill.css";
+@import "sections/about-me.css";
 @import "sections/project.css";
+@import "sections/experience.css";
+@import "sections/hobby.css";
+@import "sections/strength.css";
+@import "sections/book.css";
+@import "sections/certi.css";
+@import "sections/gallery.css";
 @import "sections/footer.css";
 
 * {

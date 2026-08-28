@@ -1,0 +1,31 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.timeline-item {
+  background-color: #121417;
+  border-left: 5px solid #ef4444;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.timeline-date {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.timeline-item h3 {
+  margin-top: 0.5rem;
+  color: #ffffff;
+}
+
+.timeline-item h4 {
+  color: #a0a0a0;
+  margin-bottom: 0.7rem;
+}
+
+.timeline-item p {
+  color: #d1d5db;
+}

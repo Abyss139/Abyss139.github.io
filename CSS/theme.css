@@ -134,38 +134,38 @@ table {
      THEME 
 *******************/
 :root {
-  /*=============== 
-        COLORS 
+/*=============== 
+        COLORS (Red & Black Theme)
     =================*/
-  /* Primary colors */
-  --p-20: hsl(213, 100%, 98%);
-  --p-50: hsl(215, 100%, 97%);
-  --p-100: hsl(215, 100%, 94%);
-  --p-200: hsl(216, 93%, 89%);
-  --p-300: hsl(219, 91%, 82%);
-  --p-400: hsl(224, 86%, 74%);
-  --p-450: hsl(198, 81%, 63%);
-  --p-500: hsl(228, 81%, 63%);
-  --p-500-code: 228, 81%, 63%;
-  --p-600: hsl(233, 73%, 59%);
-  --p-600-code: 233, 73%, 59%;
-  --p-700: hsl(234, 56%, 51%);
-  --p-700-code: 234, 56%, 51%;
-  --p-800: hsl(233, 53%, 41%);
-  --p-900: hsl(231, 46%, 34%);
-  --p-900-code: 231, 46%, 34%;
-  --p-950: hsl(233, 45%, 20%);
-  --p-950-code: 233, 45%, 20%;
+  /* Primary colors - Tông Đỏ từ nhạt đến đậm */
+  --p-20: hsl(0, 100%, 98%);
+  --p-50: hsl(0, 100%, 95%);
+  --p-100: hsl(0, 93%, 90%);
+  --p-200: hsl(0, 90%, 80%);
+  --p-300: hsl(0, 85%, 70%);
+  --p-400: hsl(0, 80%, 60%);
+  --p-450: hsl(10, 85%, 55%);
+  --p-500: hsl(0, 75%, 50%);         /* Đỏ tươi tiêu chuẩn */
+  --p-500-code: 0, 75%, 50%;
+  --p-600: hsl(0, 72%, 45%);         /* Đỏ chủ đạo (Primary) */
+  --p-600-code: 0, 72%, 45%;
+  --p-700: hsl(0, 75%, 38%);         /* Đỏ đậm (Hover state) */
+  --p-700-code: 0, 75%, 38%;
+  --p-800: hsl(0, 70%, 28%);
+  --p-900: hsl(0, 75%, 15%);         /* Đỏ thẫm/bóng đổ */
+  --p-900-code: 0, 75%, 15%;
+  --p-950: hsl(0, 60%, 8%);
+  --p-950-code: 0, 60%, 8%;
 
-  /* Neutrals */
-  --n-50: hsl(210, 14%, 97%);
-  --n-500: hsl(215, 16%, 47%);
-  --n-600: hsl(215, 16%, 35%);
-  --foreground-color: hsl(0, 0%, 100%);
+  /* Neutrals - Tông Đen & Xám */
+  --n-50: hsl(0, 0%, 10%);           /* Nền phụ tối */
+  --n-500: hsl(0, 0%, 60%);          /* Xám phụ */
+  --n-600: hsl(0, 0%, 75%);          /* Xám sáng cho đoạn văn để dễ đọc */
+  --foreground-color: hsl(0, 0%, 7%); /* Nền đen chính (Dark background) */
 
   /* Gradients */
-  --main-gradient-color: linear-gradient(to right, var(--p-450), var(--p-500));
-  --gradient-color: linear-gradient(var(--foreground-color) 10%, var(--p-100));
+  --main-gradient-color: linear-gradient(to right, var(--p-600), hsl(0, 85%, 60%));
+  --gradient-color: linear-gradient(var(--foreground-color) 10%, var(--p-950));
 
   /*================================= 
         FONTS -  Sử dụng Scale 1.125

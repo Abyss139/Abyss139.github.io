@@ -1,0 +1,39 @@
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.book-card {
+  background-color: #121417;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+.book-card h3 {
+  color: #ef4444;
+  margin-bottom: 0.5rem;
+}
+
+.book-author {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+.book-card p {
+  color: #d1d5db;
+  margin-bottom: 0.5rem;
+}
+
+.book-review {
+  color: #e2e8f0;
+  font-size: 0.92rem;
+  border-top: 1px dashed #2a2d32;
+  padding-top: 0.6rem;
+  margin-top: 0.6rem;
+}
+
+.book-review strong {
+  color: #ef4444;
+}

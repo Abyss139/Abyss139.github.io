@@ -1,0 +1,24 @@
+.gallery-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery-card {
+  background-color: #121417;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.gallery-card p {
+  color: #d1d5db;
+  margin-top: 10px;
+}
