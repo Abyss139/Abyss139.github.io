@@ -15,12 +15,13 @@ header {
 
     & span {
         font-weight: 600;
-        color: var(--p-950);
+        color: var(--p-20);
     }
 }
 
 .header__title {
     font-size: var(--h2-font-size);
+    color: var(--p-20);
     line-height: var(--h2-line-height);
     font-weight: 600;
 }
